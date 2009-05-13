@@ -1,9 +1,10 @@
 This is a tiny proof-of-concept banged out in an hour after a fun conversation
 with Mr. Justin George ( http://github.com/jaggederest ), who had the idea that
-an ordered list of words could function much better than a SHA1 but could hold
-the same information.  Sort of a look-up, with each word representing n-bits.
-It wouldn't need to be a SHA1, though; it could be arbitrary data.  The initial
-idea, though, was that if you have a reliable mapping and you make sure that the
-reverse-mapping works across machines and versions of the library, then it could
-be a much easier to remember way to identify git commits.  Could also work for
-IP addresses, SSH-keys, etc., so we're playing around to see if it's workable.
+an ordered list of words could function much better than a SHA1 (in terms of
+human memory, anyway) but could hold the same information.  Sort of a look-up,
+with each word representing n-bits.  It wouldn't need to be a SHA1, though; it
+could be arbitrary data.  The initial idea, though, was that if you have a
+reliable mapping and you make sure that the reverse-mapping works across
+machines and versions of the library, then it could be a much easier to remember
+way to identify git commits.  Could also work for IP addresses, SSH-keys, etc.,
+so we're playing around to see if it's workable.
